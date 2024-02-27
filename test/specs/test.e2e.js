@@ -19,14 +19,14 @@ const HomePage      = require('../pageobjects/home.page')
 
 describe('Swag Labs',() => {
 
-    it('harus login dengan standar_user akun',async() => {
+    it('must log in using the username standar_user account',async() => {
         // todo: akan dibuatkan skenario positif case
         await LoginPage.open();
         await LoginPage.login("standard_user","secret_sauce");
         await HomePage.validateHomePage();
     })
 
-    it('harus dapat login error ketika memakai locked_out_user akun',async() => {
+    it('must log in error when using a locked_out_user account',async() => {
         // todo: akan dibuatkan skenario negatif case
         await LoginPage.open();
         await LoginPage.login("locked_out_user","secret_sauce");
