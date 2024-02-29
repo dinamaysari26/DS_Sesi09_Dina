@@ -1,5 +1,5 @@
 {
-  "name": "tugas_wdio",
+  "name": "DS_Sesi09_Dina",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@wdio/local-runner": "^8.32.3",
     "@wdio/mocha-framework": "^8.32.3",
-    "@wdio/spec-reporter": "^8.32.2"
+    "@wdio/spec-reporter": "^8.32.2",
+    "dotenv": "^16.4.5"
   }
 }
